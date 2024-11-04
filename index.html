@@ -1,529 +1,500 @@
-<!DOCTYPE html>
+<!-- /*
+* Template Name: The IO lab Portfolio
+*/ -->
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Claudia Escutia Portfolio</title>
-    
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="www.theiolab.com">
+  <link rel="shortcut icon" href="favicon.png">
 
-    <!-- main css -->
-    <link href="css/style.css" rel="stylesheet">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Mono&display=swap" rel="stylesheet">
 
-    <!-- modernizr -->
-    <script src="js/modernizr.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <title>Portfolio</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
 
-    <!-- Preloader -->
-    <div id="preloader">
-        <div class="pre-container">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
-        </div>
+  <div class="lines-wrap">
+    <div class="lines-inner">
+      <div class="lines"></div>
     </div>
-    <!-- end Preloader -->
+  </div>
+  <!-- END lines -->
+
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+  
+  <nav class="site-nav dark mb-5 site-navbar-target">
+    <div class="container">
+      <div class="site-navigation">
+        <a href="index.html" class="logo m-0">Claudia Escutia<span class="text-primary">.</span></a>
+
+        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
+          <li><a href="#home-section" class="nav-link active">Home</a></li>
+          <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
+          <li class="has-children">
+            <a href="#about-section" class="nav-link">About</a>
+            <ul class="dropdown">
+              <li><a href="elements.html" class="nav-link">Elements</a></li>
+              <li class="has-children">
+                <a href="#">Menu Two</a>
+                <ul class="dropdown">
+                  <li><a href="#" class="nav-link">Sub Menu One</a></li>
+                  <li><a href="#" class="nav-link">Sub Menu Two</a></li>
+                  <li><a href="#" class="nav-link">Sub Menu Three</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="nav-link">Menu Three</a></li>
+            </ul>
+          </li>
+                    <li><a href="#contact-section" class="nav-link">Contact</a></li>
+        </ul>
+
+        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
+          <span></span>
+        </a>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="untree_co-section pb-0" id="home-section">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-7">
+          <h1 class="heading gsap-reveal-hero mb-3"><strong>Portfolio<span class="text-primary">.</span> </strong></h1>
+          <h2 class="subheading gsap-reveal-hero mb-4">
+            Architect / Designer /  Developer <strong><br>
+              LEED Green Assoc. / AIA Assoc. </strong>
+          </h2>    
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <div class="untree_co-section untree_co-section-4 pb-0"  id="portfolio-section">
+    <div class="container">
+
+
+      <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+      <div id="portfolio-single-holder"></div>
+
+      <div class="portfolio-wrapper">
+
+        <div id="posts" class="row">
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Luna Tower</h3>
+                  <p>Residential</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/09.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Omni Pontoque</h3>
+                  <p>Hospitality</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/Pontoque.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Radical Innovation</h3>
+                  <p>Contest</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/Radical.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Vielven</h3>
+                  <p>Hospitality</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/VLV.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>The Lobo Woods</h3>
+                  <p>Residential</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/04.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-1.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Genomma Lab HQ</h3>
+                  <p>Corporate</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/41.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-2.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Silica II</h3>
+                  <p>Masterplan</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/05.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Vielven</h3>
+                  <p>Hospitality</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/BINYAN_LRA2935_VLV_S070_EXT_BeachArea01_Final.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>EOR</h3>
+                  <p>Corporate</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/eor2.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Studio Living</h3>
+                  <p>Residential</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/studioliving.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>The Wavve</h3>
+                  <p>Residential</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/The Wavve.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Wynwood</h3>
+                  <p>Mixed-use</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/wynwood1.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Rio Tiber 93</h3>
+                  <p>Mixed-use</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/tiber93.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-3.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Omni Pontoque</h3>
+                  <p>Mixed-use</p>
+                </div>
+              </div>
+              <img src="images/CE/portfolio/BOLDRVIZ_Pontoque_Cam03_Beach Restaurant .jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+
+
+        <!-- </div>
+        </div> -->
+      </div>
+    </div>
+    
+    
+
+    <div class="untree_co-section pb-0"  id="about-section">
+      <div class="container bg-light">
+        <div class="row justify-content-center mb-3 ">
+          <div class="col-lg-7 mx-auto text-center author-wrap">
+            <img src="images/CE/CLAUDIA-16.jpg" alt="Image" class="img-fluid rounded-circle mb-3">
+            <h3 class="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">Claudia Escutia</h3>
+            <p class="gsap-reveal-hero">Architect / Designer / Developer</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+
+
+            <p class="gsap-reveal-hero">"As a passionate professional mainly interested in Technology and Sustainability, I have always tried to get deeper on How to make life greener and smarter and the first step is to identify problems that can turn into green opportunities in order to enhance the quality of life within urban environments."</p>
+
+            <p class="gsap-reveal-hero">11+ years of collaboration on different design &amp; construction teams integrating mixed professional capacities within the residential, hospitality and mixed-use projects (medium and large scale buildings).</p>
+
+            <p class="gsap-reveal-hero text-center"><a href="https://www.linkedin.com/in/claudia-escutia-arq/" target="_blank" class="btn btn-outline-black">Go to my full LinkedIn Profile</a></p>    
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+
+    <div class="untree_co-section pb-0">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Software</strong></h2>
+            <div class="wave gsap-reveal-hero" >
+              <svg>
+                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="0">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="90">
+                <div class="number"></div>
+                <p class="caption">Autodesk Revit BIM & Autocad</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="90">
+                <div class="number"></div>
+                <p class="caption">Adobe Suite</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="80">
+                <div class="number"></div>
+                <p class="caption">Enscape & Twinmotion</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="70">
+                <div class="number"></div>
+                <p class="caption">Bluebeam Revu</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <div class="container-fluid">
-        <!-- box header -->
-        <header class="box-header">
-            <div class="box-logo">
-                <h4>Claudia Escutia</h4>
-            </div>
-            <!-- box-nav -->
-            <a class="box-primary-nav-trigger" href="#0">
-                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
-            </a>
-            <!-- box-primary-nav-trigger -->
-        </header>
-        <!-- end box header -->
+      <div class="row">
+      <div class="col-md-3">
+      </div>
+      <div class="col-md-6">
+        <h2 class="text-center gsap-reveal-hero mb-0 "><strong>Videos</strong></h2>
+        <div class="embed-responsive embed-responsive-16by9">
+         <iframe class="embed-responsive-item" src="images/Videos/23013_omni_pontoque_final_draft (Original).mp4" ></iframe>
+        </div>
+      </div>
+      <div class="col-md-3">
+      </div>
+    </div>
+  </div>
 
-        <!-- nav -->
-        <nav>
-            <ul class="box-primary-nav">
-                <li class="box-label">About me</li>
 
-                <li><a href="index.html">Intro</a> <i class="ion-ios-circle-filled color"></i></li>
-                <li><a href="portfolio.html">portfolio</a></li>
+    <div class="untree_co-section" id="contact-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Connect</strong></h2>
+            <p class="gsap-reveal-hero">Lets get in touch!</p>
+            <div class="col-lg-12">
+              <ul class="list-unstyled social">
+                <a href="#"><span class="icon-instagram"></span></a>
+                <a href="#"><span class="icon-facebook"></span></a>
+                <a href="#"><span class="icon-linkedin"></span></a>
+                <a href="#"><span class="icon-pinterest"></span></a>
                
-
-
-
-                <li class="box-label">Follow me</li>
-
-                <li class="box-social"><a href="https://www.facebook.com/Theiolab/"><i class="ion-social-facebook"></i></a></li>
-                <li class="box-social"><a href="https://www.instagram.com/this_is_the_io/"><i class="ion-social-instagram-outline"></i></a></li>
-                <li class="box-social"><a href="https://github.com/claudiaec/"><i class="ion-social-github"></i></a></li>
-                
-            </ul>
-        </nav>
-        <!-- end nav -->
-
-        <!-- box-intro -->
-        <section class="box-intro">
-            <div class="table-cell">
-                <h1 class="box-headline letters rotate-2">
-                    <span class="box-words-wrapper">
-                        <b class="is-visible">architect.</b>
-                        <b>&nbsp;designer.</b>
-                        <b>&nbsp;developer.</b>
-                        
-                    </span>
-		        </h1>
-                
+              </ul>
             </div>
 
-            <div class="mouse">
-                <div class="scroll"></div>
+            <div class="wave gsap-reveal-hero" >
+              <svg>
+                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+              </svg>
             </div>
-        </section>
-        <!-- end box-intro -->
-    </div>
+          </div>
+        </div>
 
-
-    <section class="box-intro">
-    <div class= "container justify-content-center">
-       
-        <img src="img/profile.jpg" class="img-fluid" alt="Responsive image">
-        
-    </div>
-
-
-   
-    <!-- About Me Area Start -->
-    <section class="about-me-area mt-100 section_padding_100">
-        <div class="container">
-            <div class="row justify-content-center">
-                
-                <div class="col-10">
-                    <div class="about-content mt-100 mb-100 text-center">
-                        <span></span>
-                        <h3>Architect / Developer</h3>
-                        <h5>LEED GREEN ASSOCIATE</h5>
-                        <p>
-                            <br><br><strong>“As a passionate professional mainly interested in Technology and Sustainability, I have always tried to get deeper on How to make Life greener and Smart… and the first step is to identify problems than can become green opportunities to enhance the quality of life within urban environments.”</strong>
-                            
-                            <br><br><br>10+ years of collaboration on multiple design & construction work teams. Integrating mixed professional capacities within the commercial, residential and mixed-use projects.
-                            
-                            <br><br>Technology implementations into architectural projects, such as coding, computational design, web
-                            design and general interactions.</P>
-
-                        <h3><br><br>Education</h3>
-                        <p><br><br>Bachelor of Architecture. UNAM Universidad Nacional Autonóma de México
-                            <br>Exhange Program. UFRJ Universidade Federal do Rio de Janeiro
-                            <br>Software Development. Promineo Tech, Arizona, U.S.
-                            
-                        </p>
-                        
-
-                    
-                    </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="#">
+              <div class="row">
+                <div class="col-lg-6 form-group">
+                  <input type="text" class="form-control" placeholder="Firstname">
                 </div>
-                
-                <div class="col-10">
-                    <!-- Pie Bars Software -->
-                    <div class="our-skills-area text-center">
-                        <h3><br><br><br>Skills<br><br><br></h3>
-                        <div class="row">
-                            <div class="col-12 col-sm-6 col-md-3">
-                                <div class="single-pie-bar" data-percent="90">
-                                    <canvas class="bar-circle" width="100" height="100"></canvas>
-                                    <p>Adobe Suite</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3">
-                                <div class="single-pie-bar" data-percent="70">
-                                    <canvas class="bar-circle" width="100" height="100"></canvas>
-                                    <p>Bluebeam Revu</p>
-                                    
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3">
-                                <div class="single-pie-bar" data-percent="90">
-                                    <canvas class="bar-circle" width="100" height="100"></canvas>
-                                    <p>Autocad</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3">
-                                <div class="single-pie-bar" data-percent="60">
-                                    <canvas class="bar-circle" width="100" height="100"></canvas>
-                                    <p>Rhino 6</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <p><br><br></p>
-
-                        <div class="row">
-                            <div class="col-12 col-sm-6 col-md-3">
-                                <div class="single-pie-bar" data-percent="80">
-                                    <canvas class="bar-circle" width="100" height="100"></canvas>
-                                    <p>3D Max</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3">
-                                <div class="single-pie-bar" data-percent="100">
-                                    <canvas class="bar-circle" width="100" height="100"></canvas>
-                                    <p>Enscape VR</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3">
-                                <div class="single-pie-bar" data-percent="80">
-                                    <canvas class="bar-circle" width="100" height="100"></canvas>
-                                    <p>Revit BIM</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3">
-                                <div class="single-pie-bar" data-percent="70">
-                                    <canvas class="bar-circle" width="100" height="100"></canvas>
-                                    <p>Revit Dynamo</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <p><br><br></p>
-                    </div>
-
-                    <div class="our-skills-area text-center">
-
-                        <div class="row">
-                            <div class="col-12 col-sm-6 col-md-3">
-                                    <div class="single-pie-bar" data-percent="90">
-                                            <canvas class="bar-circle" width="100" height="100"></canvas>
-                                            <p>HTML5/CSS</p>
-                                     </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3">
-                                    <div class="single-pie-bar" data-percent="90">
-                                            <canvas class="bar-circle" width="100" height="100"></canvas>
-                                            <p>Bootstrap</p>
-                                    </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3">
-                                    <div class="single-pie-bar" data-percent="80">
-                                            <canvas class="bar-circle" width="100" height="100"></canvas>
-                                            <p>Javascript</p>
-                                    </div>
-                            </div>
-                            <div class="col-12 col-sm-6 col-md-3">
-                                    <div class="single-pie-bar" data-percent="60">
-                                            <canvas class="bar-circle" width="100" height="100"></canvas>
-                                            <p>Python</p>
-                                     </div>
-                            </div>          
-                       
-                    </div>
-      
+                <div class="col-lg-6 form-group">
+                  <input type="text" class="form-control" placeholder="Lastname">
                 </div>
-
-                 <!-- ========== Icon Boxes ========== -->
-                 <div class="col-12">
-                        <div class="elements-title text-center">
-                            <h3><br><br><br><br><br>Licenses and Certifications<br><br><br><br><br></h3>
-                        </div>
-                    </div>
-    
-                    <div class="col-12">
-                        <div class="features-area">
-                            <div class="row">
-                                <div class="col-12 col-md-3">
-                                    <div class="single-service-area text-center mb-100">
-                                      
-                                        <p><strong>Leed Green Associate</strong></p>
-                                        <p>by USGBC</p>
-                                        <p><Br></p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-3">
-                                    <div class="single-service-area text-center mb-100">
-                                       
-                                        <p><strong>Dynamo 1.x Essential Training</strong></p>
-                                        <p>by Lynda.com</p>
-                                        <p><Br></p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-3">
-                                    <div class="single-service-area text-center">
-                                       
-                                        <p><strong>Python Data Structures</strong></p>
-                                        <p>University of Michigan</p>
-                                        <p><Br></p>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-3">
-                                    <div class="single-service-area text-center">
-                                           
-                                        <p><strong>Getting Started with Python</strong></p>
-                                        <p>University of Michigan</p>
-                                        <p><Br></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-12">
-                                <div class="features-area">
-                                    <div class="row">
-                                        <div class="col-12 col-md-3">
-                                            <div class="single-service-area text-center mb-100">
-                                                <p><strong>Python to Access Web Data</strong></p>
-                                                        <p>University of Michigan</p>
-                                                        <p><Br></p>
-                                              
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-3">
-                                            <div class="single-service-area text-center mb-100">
-                                               
-                                                <p><strong>Interactivity with Javascript</strong></p>
-                                                <p>University of Michigan</p>
-                                                <p><Br></p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-3">
-                                            <div class="single-service-area text-center">
-                                               
-                                                <p><strong>Introduction to CSS3</strong></p>
-                                                <p>University of Michigan</p>
-                                                <p><Br></p>
-                                            </div>
-                                        </div>
-                                        <div class="col-12 col-md-3">
-                                            <div class="single-service-area text-center">
-                                                   
-                                                <p><strong>Web development Specialization</strong></p>
-                                                <p>University of Michigan</p>
-                                                <p><Br></p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                        <div class="features-area">
-                                            <div class="row">
-                                                <div class="col-12 col-md-3">
-                                                    <div class="single-service-area text-center mb-100">
-                                                      
-                                                        <p><strong>Programming Foundations</strong></p>
-                                                        <p>by Lynda</p>
-                                                        <p><Br></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-3">
-                                                    <div class="single-service-area text-center mb-100">
-                                                       
-                                                        <p><strong>Rhino 6 Essential Training</strong></p>
-                                                        <p>by LinkedIn Learning</p>
-                                                        <p><Br></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-3">
-                                                    <div class="single-service-area text-center">
-                                                       
-                                                        <p><strong>Statement of accomplishment. Global Translator Community</strong></p>
-                                                        <p>by Coursera</p>
-                                                        <p><Br></p>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-3">
-                                                    <div class="single-service-area text-center">
-                                                           
-                                                        <p><strong>Google Analytics Individual Qualification</strong></p>
-                                                        <p>by Google</p>
-                                                        <p><Br></p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="col-12">
-                                                <div class="features-area">
-                                                    <div class="row">
-                                                        <div class="col-12 col-md-3">
-                                                            <div class="single-service-area text-center mb-100">
-                                                              
-                                                                <p><strong>Virtual and Augmented Reality</strong></p>
-                                                                <p>LinkedIn Learning</p>
-                                                                <p><Br></p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-12 col-md-3">
-                                                            <div class="single-service-area text-center mb-100">
-                                                               
-                                                                <p><strong>Lighting Certificate</strong></p>
-                                                                <p>by Philips</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-12 col-md-3">
-                                                            <div class="single-service-area text-center">
-                                                            
-                                                                <p><strong>Led Lighting Certificate</strong></p>
-                                                                <p>by Philips</p>  
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-12 col-md-3">
-                                                            <div class="single-service-area text-center">
-                                                                   
-                                                                <p><strong>Specifiers Seminar</strong></p>
-                                                                <p>by Lutron</p>
-                                                                <p><Br></p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 form-group">
+                  <input type="email" class="form-control" placeholder="Email address">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 form-group">
+                  <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Write your message..."></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 form-group">
+                  <input type="submit" class="btn btn-black" value="Send Message">
+                </div>
+              </div>
+            </form>
+          </div>
+         
             
-
-                    <!-- ========== Progress Bars & Accordions ========== -->
-                    <div class="col-12">
-                            <div class="elements-title text-center">
-                                <h3><br><br><br>Languages<br><br><br></h4>
-                            </div>
-                        </div>
-        
-                        <div class="col-12 col-md-12">
-                            <!-- Progress Bar Content Area -->
-                            <div class="services-progress-bar mb-100 text-center">
-                                <!-- Single Progress Bar -->
-                                <div class="single_progress_bar">
-                                    <div id="bar1" class="barfiller">
-                                        <div class="tipWrap">
-                                            <span class="tip"></span>
-                                        </div>
-                                        <span class="fill" data-percentage="100"></span>
-                                    </div>
-                                    <p>Spanish / Native</p>
-                                </div>
-                                <!-- Single Progress Bar -->
-                                <div class="single_progress_bar">
-                                    <div id="bar2" class="barfiller">
-                                        <div class="tipWrap">
-                                            <span class="tip"></span>
-                                        </div>
-                                        <span class="fill" data-percentage="90"></span>
-                                    </div>
-                                    <p>English / TOEFL IBT 92</p>
-                                </div>
-                                <!-- Single Progress Bar -->
-                                <div class="single_progress_bar">
-                                    <div id="bar3" class="barfiller">
-                                        <div class="tipWrap">
-                                            <span class="tip"></span>
-                                        </div>
-                                        <span class="fill" data-percentage="80"></span>
-                                    </div>
-                                    <p>Portuguese/Conversation</p>
-                                    <p><br><br></p>
-                                  
-                                </div>
-                            </div>
-                           
-                        </div>
-            </div>
-       </div>
-     
-
-
-
-
-
-
-    </div>    
-</section>
-    <!-- About Me Area End -->
-
-        
-
-    <!-- Footer Area Start -->
-    <footer class="footer-area">
-        <div class="container-fluid h-100">
-            <div class="row h-100">
-                <div class="col-12 h-100">
-                    <div class="footer-content h-100 d-md-flex align-items-center justify-content-between">
-                                               
-                        <!-- Single Footer Content -->
-                        <div class="single-footer-content">
-                            <img src="img/core-img/smartphone.png" alt="">
-                            <h4>Phone Number: +52 7222338404</h4>
-                        </div>
-                        <!-- Single Footer Content -->
-                        <div class="single-footer-content">
-                            <img src="img/core-img/envelope-2.png" alt="">
-                            <h4><a href="mailto:claudia.escutia.arq@gmail.com">Mail: claudia.escutia.arq@gmail.com</a></h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </footer>
-    <!-- Footer Area End -->
+      </div>
+    </div>
 
+    
 
-
-
-    <!-- footer -->
-    <footer>
-        <div class="container-fluid">
-            <p class="copyright">© The IO Lab 2020</p>
+        <div class="row mt-5">
+          <div class="col-12 text-center">
+        
+            <p class="mb-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; by <a href="https://www.theiolab.com">The IO Lab</a> 
+            </p>
+          </div>
         </div>
-    </footer>
-    <!-- end footer -->
+      </div> <!-- /.container -->
+    </div> <!-- /.site-footer -->
 
-    <!-- back to top -->
-    <a href="#0" class="cd-top"><i class="ion-android-arrow-up"></i></a>
-    <!-- end back to top -->
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
 
-
-
-    <!-- jQuery -->
-    <script src="js/jquery-2.1.1.js"></script>
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!--  plugins -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/animated-headline.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/active.js"></script>
-        
-    <!--  custom script -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/wave-animate.js"></script>
+    <script src="js/circle-progress.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/scrollmagic.animation.gsap.min.js"></script>
+
+
     <script src="js/custom.js"></script>
     
-    <!-- google analytics  -->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+  </body>
 
-        ga('create', 'UA-76796224-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-
-</body>
-
-</html>
+  </html>
